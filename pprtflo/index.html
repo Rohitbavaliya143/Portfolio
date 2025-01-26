@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgb(24 19 62);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 52px;
+            background-color: #23197a
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: #b2aee2;
+            font-size: 1.02rem;
+        }
+
+        .left {
+            font-size: 21px;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 110px 0px;
+            align-items: center;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            width: 34px;
+            font-size: 34px;
+            margin: 25px 0px;
+        }
+        .leftsection .buttons{
+            margin-top: 3px;
+        }
+
+        .leftsection .btn {
+            font-size: 17px;
+            border: 2px solid white;
+            border-radius: 6px;
+            padding: 4px 2.5px;
+            background-color: #2b3d6e;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .rightsection img {
+            height: 240px;
+            width: 30rem;
+        }
+
+        .pur {
+            color: rgb(144, 144, 226);
+        }
+
+        #element {
+            color: rgb(144, 144, 226);
+        }
+
+        .ssection {
+            margin: 46px 0px;
+            height: 88vh;
+        }
+
+        section.ssection {
+            margin-left: 9rem;
+        }
+
+        .text-gray {
+            margin: 19px;
+            margin-left: -6px;
+            color: #5d4fab;
+        }
+
+        main hr {
+            border: 0px;
+            background-color: #54539d;
+            height: 0.1px;
+        }
+
+        h1 {
+            margin-left: -8px;
+        }
+
+        .box {
+            background-color: white;
+            width: 77vw;
+            height: 0.1px;
+            margin: 56px 0px;
+            display: flex;
+        }
+
+        .ssection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 109px;
+        }
+
+        .img {
+            width: 39px;
+            position: relative;
+            top: -39px;
+            left: -13px;
+            height: 38px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 62px;
+            width: 131px;
+        }
+
+        .vertical-disc {
+            position: relative;
+            top: 73px;
+            color: gray;
+            font-size: 10px;
+            width: 120px;
+        }
+
+        footer {
+            background-color: #1b2342;
+            margin-top: 94px;
+            padding: 19px 15px;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+
+        }
+
+        .text-center {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        @media(max-width:400px){
+            body{
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>  
+    <nav>
+        <div class="left">
+            Rohit's portfolio
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My Name is <span class="pur">Rohit</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span><br>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="webdeveloper.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="ssection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Exprience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img" src="images.png" alt="">
+                    <div class="vertical-title"> FRONTEND DEVELOPEMENT SKILL(2023-2024) </div>
+                    <div class="vertical-disc">
+                        As a passionate Frontend Developer, I specialize in creating visually stunning, highly
+                        functional websites and applications that offer seamless user experiences across all devices.
+                        With a strong foundation in HTML, CSS, and JavaScript, and extensive expertise in modern
+                        frontend frameworks like React and Vue.js, I bring ideas to life by building intuitive,
+                        responsive, and user-friendly interfaces.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img" src="download (1).png" alt="">
+                    <div class="vertical-title"> PHP SKILL (2024) </div>
+                    <div class="vertical-disc">
+                        "As a passionate and skilled PHP developer with [X] years of experience, I specialize in
+                        creating dynamic, high-performance web applications. I have a deep understanding of PHP’s
+                        capabilities, from server-side scripting to database management, and I use it to build scalable,
+                        secure, and efficient websites."
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img" src="5072860.png" alt="">
+                    <div class="vertical-title"> HTML DEVELPER (2010-2024) </div>
+                    <div class="vertical-disc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus commodi ullam, quos officiis
+                        ducimus sunt quisquam ea aliquam fugiat earum, assumenda harum autem?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img" src="5072860.png" alt="">
+                    <div class="vertical-title"> php skill (2024) </div>
+                    <div class="vertical-disc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus commodi ullam, quos officiis
+                        ducimus sunt quisquam ea aliquam fugiat earum, assumenda harum autem?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img" src="5072860.png" alt="">
+                    <div class="vertical-title"> HTML DEVELPER (2010-2024) </div>
+                    <div class="vertical-disc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus commodi ullam, quos officiis
+                        ducimus sunt quisquam ea aliquam fugiat earum, assumenda harum autem?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img" src="5072860.png" alt="">
+                    <div class="vertical-title"> HTML DEVELPER (2010-2024) </div>
+                    <div class="vertical-disc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus commodi ullam, quos officiis
+                        ducimus sunt quisquam ea aliquam fugiat earum, assumenda harum autem?
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="fir1">
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Rohit's portfolio</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            Copyright&#169;rohiportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web developer', 'video editor', 'Typing master'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</body>
+
+</html>
